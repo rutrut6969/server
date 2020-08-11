@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors');
+// const cors = require('cors');
 const twilio = require('twilio');
 
 const accountSid = 'ACef9fa9f0d8324f02842689b653d4506f';
