@@ -7,7 +7,7 @@ const authToken = 'cf069c6070b05fd246929294ab37404b';
 const client = new twilio(accountSid, authToken);
 
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.get('/', (req, res) => {
   res.send('Welcome to the Express Server');
 });
